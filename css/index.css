@@ -1,3 +1,18 @@
+/* Import Karla fonts */
+@font-face {
+  font-family: "Karla";
+  src: url('/fonts/Karla-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url('/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +20,7 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Karla", sans-serif;
   background-color: #e9f5ef;
   display: flex;
   justify-content: center;
@@ -85,6 +100,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding-left: 1rem;
+  cursor: pointer;
 }
 
 .radio-group label, .form-footer label {
